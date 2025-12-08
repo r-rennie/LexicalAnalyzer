@@ -1,6 +1,7 @@
 // SCW Lexical Analyzer using regex
 // Rachael Rennie and Maria Lyons
 // Used geeks4geeks lexical analyzer as a starting point and ChatGPT to help figure out how to implement features
+// 12/7/25
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -318,7 +319,7 @@ int main() {
     int countKeywords = 0, countIdentifiers = 0, countIntegers = 0, countFloats = 0;
     int countOperators = 0, countPuncts = 0, countErrors = 0;
 
-    // categorizes and counts tokens
+    // categorizes and counts tokensit innit
     for (auto &t : tokens) {
         if (isKeyword(t.type)) countKeywords++;
         else if (t.type == TokenType::IDENTIFIER) countIdentifiers++;
