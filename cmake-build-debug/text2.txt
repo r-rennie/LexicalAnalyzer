@@ -1,0 +1,5 @@
+INTEGER SUM = 1;
+GET SUM;
+WHILE (SUM < 100) {
+   SUM = SUM + 1;
+}

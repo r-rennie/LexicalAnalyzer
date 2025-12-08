@@ -1,0 +1,13 @@
+INTEGER x = 0;
+FLOAT y = 0.0;
+GET x;
+GET y;
+IF (x == 10) {
+    PRINT x;
+    x = x + 1;
+} ELSE {
+    y = 5.5;
+}
+WHILE (y < 20) {
+    y = y + 1;
+}

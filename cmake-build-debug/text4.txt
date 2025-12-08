@@ -1,0 +1,5 @@
+integer total_sum = 1;
+float floating = .5;
+if (x == 10) {
+  print @ total_sum;
+}
