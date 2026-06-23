@@ -95,7 +95,7 @@ private:
     // idRegex: accepts identifiers with underscores
     regex idRegex = regex(R"([A-Za-z_][A-Za-z0-9_]*)");
     regex multiOpRegex = regex(R"(==|!=|<=|>=)");
-    regex singleOpRegex = regex(R"([\+\\*/=<>-])");
+    regex singleOpRegex = regex(R"([\+\*/=<>-])");
     regex punctRegex = regex(R"([\(\)\{\};])");
 
     // initializing keywords
